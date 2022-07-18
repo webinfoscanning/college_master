@@ -1,0 +1,21 @@
+.submit-form {
+    display: flex;
+    justify-content: end;
+    margin: 1em;
+}
+
+.close-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-delete {
+    display: flex;
+    justify-content: end;
+}
+.add-value{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0.5em;
+}

@@ -1,0 +1,21 @@
+.collect-fee {
+    width: 55%;
+}
+
+.student-grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+@media screen and (max-width: 1364px) {
+    .student-grid-wrapper {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .student-grid-wrapper {
+        grid-template-columns: 100%;
+    }
+}

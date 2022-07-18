@@ -1,0 +1,35 @@
+.form-inputs {
+    width: 80%;
+}
+
+.photo-img-wrapper {
+    margin: 1rem;
+}
+
+.object-fit {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.submit-form {
+    display: flex;
+    justify-content: end;
+}
+
+.parent-details {
+    display: flex;
+    margin: 1;
+}
+
+.react-tel-input .special-label {
+    position: absolute;
+    z-index: 1;
+    top: -7px;
+    left: 25px;
+    display: none;
+    background: white;
+    padding: 0 5px;
+    font-size: 13px;
+    white-space: nowrap;
+}

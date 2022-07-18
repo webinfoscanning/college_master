@@ -1,0 +1,159 @@
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* ________________________________________________________________ */
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: 1em;
+}
+
+.pr-1 {
+    padding-right: 1em;
+}
+
+
+/* ________________________________________________________________ */
+
+.fullWidht {
+    width: 100%;
+}
+
+/* ________________________________________________________________ */
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.ml-1 {
+    margin-left: 1em;
+}
+
+.mr-1 {
+    margin-right: 1em;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+/* ________________________________________________________________ */
+
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: 1em !important;
+}
+
+.m-2 {
+    margin: 2em;
+}
+
+/* ________________________________________________________________ */
+.br-2 {
+    border-radius: 2px;
+}
+
+/* ________________________________________________________________ */
+
+.white-color {
+    color: #fff;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: end;
+}
+
+.flex-column {
+    display: table-column-group;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile-card {
+    height: 120px;
+    width: 100%;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.shadow-none {
+    box-shadow: none;
+}
+
+.edit-delete-master-table {
+    display: flex;
+    justify-content: center;
+    columns: 1;
+}
+
+.row {
+    display: table-row;
+}
+
+.column {
+    display: table-cell;
+    margin: 1em !important;
+}
+
+.border {
+    margin: 1em
+}
+
+.tablebody {
+    border: 1px solid black;
+}
+
+.item-center {
+    display: flex;
+    justify-content: center;
+}
+
+.object-fit {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.auto-wrapper {
+    position: relative;
+}
+
+/* .react-tel-input .form-control {
+    width: 300%;
+    height: 20px;
+} */
+
+.react-tel-input .form-control {
+    font-size: 16px;
+    background: #eff3fc;
+    border: 1px solid #CACACA;
+    border-radius: 0px;
+    width: 255px;
+    height: 29px;
+    outline: none;
+    padding: 18.5px 14px 18.5px 58px;
+    transition: box-shadow ease .25s, border-color ease .25s;
+}

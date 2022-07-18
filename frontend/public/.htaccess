@@ -1,0 +1,10 @@
+
+<IfModule mod_rewrite.c>
+RewriteEngineOn
+RewriteBase /
+Options +FollowSymLinks
+RewriteCond%{​REQUEST_FILENAME}​ !-f
+RewriteRule ^(.*)$ index.html [L,QSA]
+RewriteEngineOn
+RewriteCond%{​HTTPS}​ off
+</IfModule>

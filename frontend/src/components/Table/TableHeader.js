@@ -1,0 +1,47 @@
+import {
+  TableCell,
+  TableHead,
+  TableRow,
+  TableSortLabel,
+  Typography,
+} from "@mui/material";
+
+const TableHeader = (props) => {
+  const { createSortHandler, headLabel, order, orderBy, action } = props;
+  return (
+    <TableHead >
+      <TableRow>
+        <TableCell align={"left"} padding={"normal"} />
+        {headLabel.map((item) => {
+          return (
+            <TableCell
+              align={headLabel.alignRight === null ? "center" : headLabel.alignRight ? "right" : "left"}
+              padding={"normal"}
+              key={item.id} >
+              <TableSortLabel
+                active={orderBy === item.id}
+                direction={orderBy === item.id ? order : "asc"}
+                onClick={createSortHandler(item?.id)}
+              >
+                <Typography
+                  variant="h6"
+                  color={"secondary"}
+                >{item.label}
+                </Typography>
+              </TableSortLabel>
+            </TableCell>
+          );
+        })}
+        {
+          action ? <TableCell align={"center"} padding={"normal"} >
+            <Typography
+              variant="h6"
+              color={"secondary"}
+            >Action</Typography>
+          </TableCell> : null
+        }
+      </TableRow>
+    </TableHead >
+  );
+};
+export default TableHeader;
