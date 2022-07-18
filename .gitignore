@@ -6,7 +6,7 @@
 /.pnp
 .pnp.js
 
-/backend/uploads/images
+/backend/uploads
 
 # testing
 /coverage
